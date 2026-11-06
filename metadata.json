@@ -1,0 +1,6 @@
+{
+  "name": "Café Lota - Artisanal Regional Indian Dining",
+  "description": "Experience contemporary regional Indian cuisine at the National Crafts Museum, Pragati Maidan, New Delhi. Featuring table reservations, signature seasonal menu, and live concierge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
