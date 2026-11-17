@@ -1,4 +1,8 @@
 import { Booking, MenuItem, ReviewItem } from '../types';
+import heroImageAsset from '../assets/images/cafelota_hero_1793974656965.jpg';
+import palakChaatAsset from '../assets/images/cafelota_palak_chaat_1793974657388.jpg';
+import curryThaliAsset from '../assets/images/cafelota_curry_thali_1793974659623.jpg';
+import ambienceAsset from '../assets/images/cafelota_ambience_1793974659701.jpg';
 
 export const CAFE_INFO = {
   name: 'Café Lota',
@@ -18,10 +22,10 @@ export const CAFE_INFO = {
   reviewCount: 4820,
   priceForTwo: '₹1,200 – ₹1,800',
   instagram: '@cafelotadelhi',
-  heroImage: '/src/assets/images/cafelota_hero_1793974656965.jpg',
-  palakChaatImage: '/src/assets/images/cafelota_palak_chaat_1793974657388.jpg',
-  curryThaliImage: '/src/assets/images/cafelota_curry_thali_1793974659623.jpg',
-  ambienceImage: '/src/assets/images/cafelota_ambience_1793974659701.jpg',
+  heroImage: heroImageAsset,
+  palakChaatImage: palakChaatAsset,
+  curryThaliImage: curryThaliAsset,
+  ambienceImage: ambienceAsset,
 };
 
 export const MENU_ITEMS: MenuItem[] = [
@@ -36,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Crisp hand-dipped spinach leaf fritters bathed in chilled sweetened organic yogurt, crushed roasted cumin, tart date-tamarind sonth, and ruby pomegranate arils.',
     highlights: ['Crispy Organic Spinach Tempura', 'Chilled Whipped Spiced Curd', 'Artisanal Date & Tamarind Sonth', 'Fresh Pomegranate & Sev'],
     isSignature: true,
-    image: '/src/assets/images/cafelota_palak_chaat_1793974657388.jpg',
+    image: palakChaatAsset,
   },
   {
     id: 'dish-2',
@@ -49,7 +53,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fresh river sole marinated in ajwain, pounded yellow mustard and rock salt, crusted with popped Himalayan amaranth seeds, served with oven-roasted sweet potato wedges.',
     highlights: ['Wild River Sole Fillet', 'Popped Organic Amaranth Crust', 'Slow-Roasted Sweet Potato Wedges', 'Radish Mustard Mooli Chutney'],
     isSignature: true,
-    image: '/src/assets/images/cafelota_curry_thali_1793974659623.jpg',
+    image: curryThaliAsset,
   },
   {
     id: 'dish-3',
